@@ -1,0 +1,244 @@
+.wrap{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.994);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* filter: blur(5); */
+    position: fixed;
+    top: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.logo-box{
+    width: 40px;
+    height: 40px;
+    background-color: #feda03;
+    border-radius: 10px;
+    display: inline-block;
+}
+h1{
+    font-size: 2rem;
+    
+}
+.head-ri{
+    display: flex;
+}
+.navbar{
+    background-color: #fff;
+    width: 20px;
+    height: 40px;
+    /* display: inline-block; */
+    /* display: flex;
+    align-items: center; */
+    
+    
+}
+.connent{
+    font-size: 1.2rem;
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 15%;
+    
+}
+nav{
+    padding-top: 5px;
+    border: 1px solid #000;
+
+}
+nav .checkbox{
+    display: none;
+    
+}
+.top-nav{
+    width: 100px;
+    
+    /* fill: blur(1.2rem); */
+    background-color: rgb(94, 60, 203);
+    display: none;
+}
+.top-nav ul{
+    
+    z-index: 5;
+    /* padding-top: 250px; */
+    background-color: rgb(83, 198, 181);
+    margin-top: 50px;
+    height: 80%; 
+    max-width: 50%;
+    float: right;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    
+    
+
+    
+    
+    
+}
+.top-nav li{
+    font-size: 1.6rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.top-nav a{
+    text-decoration: none;
+}
+.top-nav .li-small{
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+ #burger:checked + .top-nav{
+    display:block;
+
+    
+    }
+.top-nav ul img{
+    width: 50px;
+}
+/* -----------------------main------------------------ */
+.main{
+    box-sizing: border-box;
+}
+.main .content{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main h2{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.main span{
+    color:transparent;
+    background:linear-gradient(90deg, rgb(255, 2, 57), rgb(253, 148, 0), rgb(255, 247, 0), rgb(0, 255, 157), rgb(0, 217, 255), rgb(212, 0, 255));
+    background-clip: text;
+    -webkit-background-clip:text ;
+
+}
+.main .search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(233, 233, 233);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 450px;
+
+
+}
+.main .text{
+    color: rgb(194, 194, 194);
+    font-size: 1.1rem;
+    /* padding-left: 5%; */
+    
+}
+.main .find{
+    color: rgb(104, 104, 104);
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 5px 8px;
+    background-color: rgb(231, 231, 231);
+    
+}
+.main .kinds{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    /* background-color: rgb(235, 96, 96); */
+
+}
+.main .kind{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(140, 140, 140);
+}
+/* -------spotlight----------- */
+.spotlight{
+    background: url(./images/main/7deac157de95faddd820.png);
+    background-size: 100% 600px;
+    background-position-y: -70pt;
+
+}
+    
+
+.spotlight .content{
+    height: 500px;
+}
+    
+.spotlight h3{
+    /* margin-top: 180px; */
+    padding-top: 180px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(90, 90, 90);
+    /* letter-spacing: 1.2px; */
+
+}
+.spotlight span{
+    font-weight: 900;
+}
+.img-card{
+    margin-left: 5%;
+
+}
+
+.spotlight .container{
+    margin-top: 40px;
+    
+    /* background-color: #fff; */
+    
+    /* border-radius: 20px; */
+    display: flex;
+    overflow: hidden;
+
+
+}
+.spotlight .container img{
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+.spotlight .card{
+    position: relative;
+    padding: 20px;
+}
+.spotlight .container p{
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+    
+    
+
+    
+
